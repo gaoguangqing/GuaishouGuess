@@ -25,7 +25,7 @@ function preloadImages(questions) {
         manifest.push({ src: sprintf("_%05d.jpg", questions[i]["ID"]), id: "" + i });
     }
     if (preload == null || typeof (preload) == 'undefined') {
-        preload = new createjs.LoadQueue(true, "./" + controller.dataBaseUrl + "img/");
+        preload = new createjs.LoadQueue(true, "./img/");
         preload.addEventListener("progress", handleProgress);
         preload.addEventListener("complete", handleComplete);
         preload.addEventListener("fileload", handleFileLoad);
