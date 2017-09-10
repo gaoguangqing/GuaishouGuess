@@ -22,7 +22,7 @@ function preloadTimeUp() {
 function preloadImages(questions) {
     var manifest = [];
     for (var i = 0; i < questions.length; i = i + 1) {
-        manifest.push({ src: sprintf("_%05d.jpg", questions[i]["ID"]), id: "" + i });
+        manifest.push({ src: sprintf("%05d.jpg", questions[i]["ID"]), id: "" + i });
     }
     if (preload == null || typeof (preload) == 'undefined') {
         preload = new createjs.LoadQueue(true, "./img/");
