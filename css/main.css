@@ -199,16 +199,16 @@ h1,h2,h3,h4 {
 }
 #start-level {
 	position: absolute;
-	left: -10px;
-	bottom: -5px;
+	left: 120px;
+	bottom: 30px;
 	font-size: 1.5em;
 	text-shadow: 1px 1px 0px #8a0022;
 	background: url(../img/level.png) center center no-repeat;
 	background-size: 100% 100%;
-	width: 70px;
-	height: 70px;
+	width: 30px;
+	height: 30px;
 	overflow: hidden;
-	line-height: 70px;
+	line-height: 30px;
 	visibility: hidden;
 }
 #page-start{
