@@ -1,5 +1,5 @@
 ﻿{
-	"questionRepoSize": 10,
+	"questionRepoSize": 5,
 	"questions": [
 		{
 			"answer": "破甲射手",
@@ -76,6 +76,31 @@
 			"category": "紫卡",
 			"ID": 15,
 			"keyboard": "堡垒打手肌肉太影魔空"
+		},{
+			"answer": "雄鹰铁卫",
+			"category": "红卡",
+			"ID": 16,
+			"keyboard": "上将老射手"
+		},{
+			"answer": "狂战士",
+			"category": "红卡",
+			"ID": 17,
+			"keyboard": "牛魔王长剑手"
+		},{
+			"answer": "雄鹰上将",
+			"category": "红卡",
+			"ID": 18,
+			"keyboard": "铁卫羽毛蓝眼"
+		},{
+			"answer": "鹦鹉旗手",
+			"category": "黄卡",
+			"ID": 19,
+			"keyboard": "射天空红衣"
+		},{
+			"answer": "仙灵法师",
+			"category": "蓝卡",
+			"ID": 20,
+			"keyboard": "精灵魔光明灯蓝色"
 		}
 	]
 }
